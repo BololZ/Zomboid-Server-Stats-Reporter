@@ -11,7 +11,7 @@ const db = mysql.createPool({
   host: process.env.SQL_HOST, 
   port: process.env.SQL_PORT || 3306, 
   user: process.env.SQL_USER, 
-  password: process.env.SQL_PASS,
+  password: process.env.SQL_PASSWORD,
   database: 'Zombo' 
 })
 
