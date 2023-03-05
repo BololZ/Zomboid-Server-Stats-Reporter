@@ -1,5 +1,4 @@
-FROM node:16
-WORKDIR /usr/src/app
+FROM node:lts-alpine
 ARG NODE_ENV
 ENV NODE_ENV $NODE_ENV
 ENV SQL_HOST "hostname"
