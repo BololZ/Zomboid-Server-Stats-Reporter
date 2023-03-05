@@ -3,7 +3,7 @@ WORKDIR /var/www/html
 ENV ZOMBOID_SERVER_NAME "pz"
 ENV SQL_HOST "host"
 ENV SQL_USER "username"
-ENV SQL_PASS "pass"
+ENV SQL_PASSWORD "pass"
 ENV SQL_TABLE "Zombo"
 
 RUN apt-get update && apt-get -y install cron
